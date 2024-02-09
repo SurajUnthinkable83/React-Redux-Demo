@@ -1,4 +1,4 @@
-import { BUY_CAKE } from "./cakeType";
+import { BUY_CAKE } from "./cakeType.js";
 
 
 const initialState ={
