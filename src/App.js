@@ -7,6 +7,7 @@ import ConnectedCakeContainer from './components/CakeContainer';
 import ConnectedIceCreamContainer from './components/IceCreamContainer';
 import CookieContainer from './components/CookieContainer';
 import ConnectedNewCakeContainer from './components/NewCakeContainer';
+import ItemContainer from './components/ItemContainer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <ConnectedIceCreamContainer/>
         <CookieContainer/>
         <ConnectedNewCakeContainer/>
+        <ItemContainer/>
+        <ItemContainer cake/>
       </div>
     </Provider>
   );
